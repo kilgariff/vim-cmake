@@ -80,7 +80,7 @@ function! s:cmake(...)
     exec 'cd - '
 
   else
-    echo "Unable to find build directory."
+    echo "Unable to find build directory '" . g:cmake_build_dir . "'"
   endif
 
 endfunction
